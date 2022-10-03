@@ -3,7 +3,7 @@ Captures Handwriting Digital Ink and Saves as Image for Download
   
 This Software is a Derivative of the Kanji Canvas Example Website. I had it modified to save the input as an image rather than just parse it.
 
-#Why do I need samples?  
+# Why do I need samples?
 I need samples of Handwritten Japanese characters in order to train a nueral network for my educational game that I am having developed that teaches Japanese.  
   
 # Usage
