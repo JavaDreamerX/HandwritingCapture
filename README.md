@@ -14,7 +14,11 @@ Thanks for helping me with my project!
 
 2: Unzip it  
 3: Open index.html  
-4: Draw a character  
+4: Draw a character  from this image below  
+  
+![image](https://user-images.githubusercontent.com/29927163/193654927-3e83c761-a6ce-47f7-99a2-614f00382b2a.png)
+
+  
 5: Hit submit (image is saved to downloads folder)  
 repeat 4 and 5 as many times as desired  
-6: send me all the generated images by either reddit dm or my discord keys9#3717
+6: send me all the generated images by either reddit or my discord keys9#3717
