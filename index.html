@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Kanji Canvas</title>
+    <meta name="title" content="Kanji Canvas">
+    <meta name="twitter:title" content="Kanji Canvas">
+    <meta property="og:title" content="Kanji Canvas">
+    <meta name="description" content="Free Online Kanji (Japanese Character) Recognition in Javascript">
+    <meta property="og:description" content="Free Online Kanji (Japanese Character) Recognition in Javascript">
+
+    <meta name="keywords" content="Kanji Canvas, Kanji Handwriting Recognition, Online Kanji Recognition, Online Japanese Character Recognition" lang="en">
+    <meta name="language" content="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:site_name" content="asdfjkl.github.io">
+    <meta property="og:url" content="https://asdfjkl.github.io/kanjicanvas/">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary">
+
+    <link rel="stylesheet" href="resources/css/stylesheet.min.css">
+  </head>
+  
+  <body>
+    <header>
+      <h1>Kanji Canvas</h1>
+    </header>
+    
+    <div id="content">
+      <div id="kanji-canvas" class="content-block">
+        <p class="center">Draw a kanji on the canvas, then click "Recognize" for a list of matches.</p>
+        <div class="kanji-canvas-container">
+          <canvas id="can" class="kanji-canvas" data-candidate-list="candidateList" width="418" height="316"></canvas>
+          <div class="kanji-canvas-controls">
+            <button onclick="KanjiCanvas.erase('can')" title="(CTRL+X)"><i class="fa">&#xf12d;</i>Erase</button>
+            <button onclick="KanjiCanvas.deleteLast('can')" title="(CTRL+Z)"><i class="fa">&#xf0e2;</i>Undo</button>
+            <button onclick="KanjiCanvas.recognize('can')" title="(CTRL+F)"><i class="fa">&#xf002;</i>Submit</button>
+          </div>
+          <div id="candidateList" class="kanji-canvas-candidates"></div>
+        </div>
+      </div>
+     
+    <script src="resources/javascript/kanji-canvas.js"></script>
+    <script src="resources/javascript/ref-patterns.js"></script>
+    <script>KanjiCanvas.init('can');</script>
+  </body>
+</html>
